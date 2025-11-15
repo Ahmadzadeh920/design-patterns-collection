@@ -123,6 +123,6 @@
 
 
 ## منابع پیشنهادی 
-Refactoring.Guru — Adapter Pattern
+🌐 Refactoring.Guru — Adapter Pattern
 
-Design Patterns: Elements of Reusable Object-Oriented Software
+📘 Design Patterns: Elements of Reusable Object-Oriented Software
