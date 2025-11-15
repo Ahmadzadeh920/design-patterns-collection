@@ -55,7 +55,7 @@
 -* بخش اصلی منطق high-level است  
 
 ### 🔹 کلاس ExtendedAbstraction  
--* Abstraction را گسترش می‌دهد  
+-* کلاس Abstraction را گسترش می‌دهد  
 -* رفتار پیشرفته‌تر ارائه می‌دهد  
 
 ### 🔹 رابط Implementation  
@@ -63,7 +63,7 @@
 -* بستری منعطف برای پیاده‌سازی‌های مختلف ایجاد می‌کند  
 
 ### 🔹 پیاده‌سازی‌های Concrete  
--* `ConcreteImplementationA` و `ConcreteImplementationB`  
+-*  پیاده سازی `ConcreteImplementationA` و `ConcreteImplementationB`  
 -* عملیات را بر اساس نوع پلتفرم اجرا می‌کنند  
 
 ### 🔹 تابع client_code  
@@ -87,19 +87,12 @@
 
 ### 🎨 سناریو: سیستم رندرینگ اجزای UI
 
-فرض کن می‌خواهی یک کتابخانه UI بسازی که کامپوننت‌های مختلفی دارد:
-
--* **Button**
--* **Card**
+فرض کن می‌خواهی یک کتابخانه UI بسازی که کامپوننت‌های مختلفی دارد Button , Card... 
 
 
 و می‌خواهی این کامپوننت‌ها بتوانند روی چند پلتفرم مختلف رندر شوند:
 
--* 📱 WebGL  
-
--* 🖥️ OpenGL
-
--* 🎮 DirectX
+مثل 📱 WebGL  🖥️ OpenGL  🎮 DirectX
 
 ### اگر بدون Bridge طراحی کنی:
 
@@ -110,8 +103,9 @@
 
 ### ✔ راه‌حل با Bridge
 
-- **Abstraction** → کامپوننت‌ها (Button, Card, ...)
-- **Implementation** → موتورهای رندرینگ (WebGLRenderer, OpenGLRenderer, ...)
+-* کلاس  **Abstraction** → کامپوننت‌ها (Button, Card, ...)
+
+-* کلاس **Implementation** → موتورهای رندرینگ (WebGLRenderer, OpenGLRenderer, ...)
 
 در نتیجه:
 
