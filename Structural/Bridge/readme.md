@@ -115,14 +115,14 @@
 
 -* کلاس **Implementation** → موتورهای رندرینگ (WebGLRenderer, OpenGLRenderer, ...)
 
-در نتیجه:
+####  در نتیجه:
 
 -* بدون دست‌زدن به کد دکمه، می‌توانی موتور رندرینگ را تغییر دهی  
 -* بدون دست‌زدن به موتور رندرینگ، می‌توانی Card یا Modal جدید اضافه کنی  
 
 
 
-## منابع پیشنهادی 
+##  منابع پیشنهادی برای مطالعه بیشتر
 🌐 Refactoring.Guru — Adapter Pattern
 
 📘 Design Patterns: Elements of Reusable Object-Oriented Software
