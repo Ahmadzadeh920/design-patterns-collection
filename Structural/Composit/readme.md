@@ -112,4 +112,4 @@ return f"Branch({'+'.join(results)})"
 
 📘  Head First Design Patterns (فصل Composite)
 
-🎥YouTube درباره کاربرد Composite در پروژه‌های واقعی
+🎥 YouTube درباره کاربرد Composite در پروژه‌های واقعی
